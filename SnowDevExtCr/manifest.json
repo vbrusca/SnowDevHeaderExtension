@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+
+  "name": "SnowDevExt Plugin",
+  "description": "This extension will adjust a ServiceNow Dev user's header.",
+  "version": "1.0",
+
+  "action": {
+   "default_icon": "icon.png",
+   "default_popup": "popup.html"
+  },
+
+  "host_permissions": ["http://*/*", "https://*/*"],
+
+  "permissions": [
+   "tabs",
+   "activeTab",
+   "scripting"
+   ],
+
+   "background": {
+      "service_worker": "popup.js"
+   }
+}
