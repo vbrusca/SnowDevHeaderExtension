@@ -1,6 +1,12 @@
 # SnowDevHeaderExtension
 A project that includes the source code for FireFox and Chromium based browser extensions that make the ServiceNow developer drop downs much wider.
 
+Original Header:
+![alt text](https://github.com/vbrusca/SnowDevHeaderExtension/blob/main/images/snow_header_old.png)
+
+Modified Header:
+![alt text](https://github.com/vbrusca/SnowDevHeaderExtension/blob/main/images/snow_header_new.png)
+
 Steps to install locally for Chromium based browsers:
 1. Unzip the archive in a persistent place like documents etc.
 2. Open the extensions page in chromium based browser and toggle developer mode or look up how to do so.
